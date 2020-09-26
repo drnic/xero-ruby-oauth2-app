@@ -30,5 +30,6 @@
 yarn-debug.log*
 .yarn-integrity
 .env
+.envrc
 *.sqlite3
 *.DS_Store

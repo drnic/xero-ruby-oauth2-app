@@ -1,0 +1,137 @@
+
+app/mailers/application_mailer.rb,67
+class ApplicationMailer < ActionMailer::BaseApplicationMailer1,0
+
+app/models/application_record.rb,67
+class ApplicationRecord < ActiveRecord::BaseApplicationRecord1,0
+
+app/models/user.rb,40
+class User < ApplicationRecordUser1,0
+
+app/jobs/application_job.rb,58
+class ApplicationJob < ActiveJob::BaseApplicationJob1,0
+
+app/controllers/application_controller.rb,251
+class ApplicationController < ActionController::BaseApplicationController1,0
+  def homehome8,0
+  def callbackcallback11,0
+  def refresh_tokenrefresh_token22,0
+  def change_organisationchange_organisation31,0
+  def disconnectdisconnect38,0
+
+app/controllers/users_controller.rb,147
+class UsersController < ApplicationControllerUsersController1,0
+    def newnew2,0
+    def createcreate6,0
+  def user_paramsuser_params20,0
+
+app/controllers/sessions_controller.rb,123
+class SessionsController < ApplicationControllerSessionsController1,0
+  def createcreate3,0
+  def destroydestroy15,0
+
+app/controllers/accounting_controller.rb,1500
+class AccountingController < ActionController::BaseAccountingController1,0
+  def invoicesinvoices10,0
+  def invoices_recentinvoices_recent39,0
+  def invoices_createinvoices_create48,0
+  def get_invoice_as_pdfget_invoice_as_pdf54,0
+  def create_invoice_attachment_by_file_namecreate_invoice_attachment_by_file_name60,0
+  def accountsaccounts70,0
+  def create_account_attachment_by_file_namecreate_account_attachment_by_file_name74,0
+  def banktransactionsbanktransactions84,0
+  def banktransactions_createbanktransactions_create95,0
+  def banktransfersbanktransfers107,0
+  def batchpaymentsbatchpayments118,0
+  def brandingthemesbrandingthemes122,0
+  def contactscontacts126,0
+  def contact_historycontact_history135,0
+  def contactgroupscontactgroups142,0
+  def creditnotescreditnotes146,0
+  def currenciescurrencies150,0
+  def employeesemployees154,0
+  def itemsitems158,0
+  def journalsjournals162,0
+  def linked_transactionslinked_transactions166,0
+  def manualjournalsmanualjournals170,0
+  def organisationsorganisations174,0
+  def overpaymentsoverpayments178,0
+  def paymentspayments182,0
+  def payments_createpayments_create186,0
+  def payment_historypayment_history214,0
+  def prepaymentsprepayments220,0
+  def purchaseorderspurchaseorders224,0
+  def quotesquotes233,0
+  def receiptsreceipts237,0
+  def reportsreports241,0
+  def taxratestaxrates246,0
+  def trackingcategoriestrackingcategories250,0
+  def usersusers254,0
+
+app/controllers/assets_controller.rb,93
+class AssetsController < ActionController::BaseAssetsController1,0
+  def assetsassets8,0
+
+app/controllers/projects_controller.rb,101
+class ProjectsController < ActionController::BaseProjectsController1,0
+  def projectsprojects8,0
+
+app/helpers/users_helper.rb,35
+module UsersHelperUsersHelper1,0
+
+app/helpers/sessions_helper.rb,41
+module SessionsHelperSessionsHelper1,0
+
+app/helpers/application_helper.rb,371
+module ApplicationHelperApplicationHelper1,0
+  def token_expiredtoken_expired4,0
+  def id_tokenid_token12,0
+  def access_tokenaccess_token16,0
+  def current_usercurrent_user20,0
+  def xero_clientxero_client24,0
+  def has_token_set?has_token_set?36,0
+  def authorization_urlauthorization_url48,0
+  def latest_connection(connections)latest_connection52,0
+
+app/channels/application_cable/connection.rb,195
+module ApplicationCableApplicationCable1,0
+  class Connection < ActionCable::Connection::BaseConnection2,0
+  class Connection < ActionCable::Connection::BaseApplicationCable::Connection2,0
+
+app/channels/application_cable/channel.rb,177
+module ApplicationCableApplicationCable1,0
+  class Channel < ActionCable::Channel::BaseChannel2,0
+  class Channel < ActionCable::Channel::BaseApplicationCable::Channel2,0
+
+test/models/user_test.rb,54
+class UserTest < ActiveSupport::TestCaseUserTest3,0
+
+test/application_system_test_case.rb,95
+class ApplicationSystemTestCase < ActionDispatch::SystemTestCaseApplicationSystemTestCase3,0
+
+test/test_helper.rb,101
+class ActiveSupport::TestCaseTestCase5,0
+class ActiveSupport::TestCaseActiveSupport::TestCase5,0
+
+test/controllers/users_controller_test.rb,84
+class UsersControllerTest < ActionDispatch::IntegrationTestUsersControllerTest3,0
+
+test/controllers/sessions_controller_test.rb,90
+class SessionsControllerTest < ActionDispatch::IntegrationTestSessionsControllerTest3,0
+
+test/channels/application_cable/connection_test.rb,206
+class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCaseConnectionTest3,0
+class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCaseApplicationCable::ConnectionTest3,0
+
+config/application.rb,182
+module XeroRubyOauth2AppXeroRubyOauth2App9,0
+  class Application < Rails::ApplicationApplication10,0
+  class Application < Rails::ApplicationXeroRubyOauth2App::Application10,0
+
+db/migrate/20200408220514_add_active_tenant_to_user.rb,109
+class AddActiveTenantToUser < ActiveRecord::Migration[6.0]AddActiveTenantToUser1,0
+  def changechange2,0
+
+db/migrate/20200406194559_create_users.rb,89
+class CreateUsers < ActiveRecord::Migration[6.0]CreateUsers1,0
+  def changechange2,0
