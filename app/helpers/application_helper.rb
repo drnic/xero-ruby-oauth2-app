@@ -34,6 +34,8 @@ module ApplicationHelper
       @xero_client.set_token_set(current_user.token_set)
     end
 
+    XeroRuby.configure.debugging = true if ENV["DEBUG"]
+
     @xero_client
   end
 
